@@ -1,0 +1,61 @@
+body {background-color: #F3E8FF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;}
+h1 {color: #6A0DAD;
+    text-align: center;}
+p {font-size: 1.2rem;
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto 20px;}
+table {border-collapse: collapse;
+    margin: 30px auto;
+    width: 90%;
+    max-width: 800px;}
+table,
+th,
+td {border: 1px solid #bc67dd;}
+th {background-color: #e9c9ff;
+    color: #6A0DAD;
+    font-size: 1.3rem;
+    padding: 15px;}
+td {padding: 10px;
+    text-align: center;}
+td img {display: block;
+    margin: 20px auto;
+    width: 220px;
+    height: auto;
+    border-radius: 8px;}
+a {color: #0000ee;
+    text-decoration: none;
+    transition: color 0.3s;}
+a:hover {color: #add8e6;
+    background-color: #ffffff;
+    padding: 2px 4px;}
+#message {margin-top: 15px;
+    font-weight: bold;
+    color: #a84ee9;
+    text-align: center;}
+button {display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #6A0DAD;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;}
+button:hover {background-color: #553089;}
+
+/* Estilo para alinhar a lista à esquerda visualmente */
+.hobbies-container {text-align: center;
+    max-width: 800px;
+    margin: 0 auto 30px;}
+.hobbies-list {list-style-type: disc;
+    text-align: left;
+    display: inline-block;
+    margin-left: -80px;}
+.hobbies-img {margin-top: 20px;
+    width: 300px;
+    border-radius: 10px;}
